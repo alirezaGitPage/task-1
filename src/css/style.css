@@ -13,47 +13,20 @@
 
 /* ROOT VARIABLES SECTION */
 :root{
-    --color-primary-900:#134e4a;
-    --color-primary-800:#115e59;
-    --color-primary-700:#0f766e;
-    --color-primary-600:#0d9488;
-    --color-primary-500:#14b8a6;
-    --color-primary-400:#2dd4bf;
-    --color-primary-300:#5eead4;
-    --color-primary-200:#99f6e4;
-    --color-primary-100:#ccfbf1;
-    --color-primary-50:#f0fdfa;
-
-    --color-secondary-900:#312e81;
-    --color-secondary-800:#3730a3;
-    --color-secondary-700:#4338ca;
-    --color-secondary-600:#4f46e5;
-    --color-secondary-500:#6366f1;
-    --color-secondary-400:#818cf8;
-    --color-secondary-300:#a5b4fc;
-    --color-secondary-200:#c7d2fe;
-    --color-secondary-100:#e0e7ff;
-    --color-secondary-50:#eef2ff;
+    --color-primary:#0d9488;
+    --color-secondary-dark:#3730a3;
+    --color-secondary-hover:#4f46e5;
+    --color-secondary-light:#c7d2fe;
+    --color-heading:#1e1e1e;
+    --color-body:#696969;
+    --color-white:#fff;
 
     --border-radius-tiny: 3px;
     --border-radius-sm: 5px;
     --border-radius-md: 7px;
     --border-radius-lg: 9px;
 
-    --color-success: rgb(0, 192, 115);
-    --color-warning: rgb(255, 153, 0);
-    --color-error: rgb(255, 71, 87);
-    --color-red-700: rgb(185, 28, 28);
-    --color-red-800: rgb(153, 27, 27);
-    --color-red-500: rgb(239, 68, 68);
-    --color-red-300: rgb(252, 165, 165);
-    --color-red-100: rgb(254, 226, 226);
-
     --soft-shadow:0 0 20px 10px #f2f2f2fb;
-
-    --color-heading:#1e1e1e;
-    --color-body:#696969;
-    --color-white:#fff;
 }
 
 /* TYPOGRAPHY SECTION */
@@ -117,7 +90,7 @@ h3{
 }
 
 .btn--primary{
-    background-color: var(--color-primary-600);
+    background-color: var(--color-primary);
     color: var(--color-white);
 }
 
@@ -130,8 +103,8 @@ h3{
 /* BADGE SECTION */
 .badge{
     display: inline-block;
-    background-color: var(--color-secondary-200);
-    color: var(--color-secondary-800);
+    background-color: var(--color-secondary-light);
+    color: var(--color-secondary-dark);
     border-radius: var(--border-radius-sm);
     font-size: 1.6rem;
     padding: 0.5rem 1.3rem;
@@ -192,11 +165,11 @@ h3{
 }
 
 .ticket__details .upload__link{
-    color: var(--color-secondary-800);
+    color: var(--color-secondary-dark);
     transition: all .2s ease-out;
 }
 .ticket__details .upload__link:hover{
-    color: var(--color-secondary-600);
+    color: var(--color-secondary-hover);
 }
 
 .ticket__details .account__image{
